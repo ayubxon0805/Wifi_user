@@ -37,7 +37,6 @@ class UserModel {
   }
 
   void write(dynamic message) {
-    // ignore: avoid_print
     socket?.write(message);
   }
 
